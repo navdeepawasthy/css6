@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('./image/sahara desert.jpg');
+}
+.nav{
+    color: white;
+}
+ul{
+    float: right;
+}
+li{
+    display: inline-block;
+    top: auto;
+    list-style: none;
+    color: white;
+    padding: 1rem 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.leftcontainer{
+    padding: 3rem;
+    position: relative;
+    top: 80PX;
+    box-sizing: content-box;
+    width: 30rem;
+
+}
+h1{
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+
+}
+p{
+    color:white;
+    /* font-size: 5px; */
+    font-weight: lighter;
+}
+button{
+    border-radius: 30px;
+    background: white;
+    width: 8rem;
+    margin-top: 2rem;
+    border: none;
+}
+.rightcontainer{
+    display: flex;
+    width: 40rem;
+    flex-wrap: wrap;
+    float: right
+}
+.box{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    /* flex: 1 1 50%; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 8rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box:hover{
+    transform: translateY(-15px);}
+#box1{
+    background-image: url('./image/western.png');
+    background-size: cover;
+}
+#box2{
+    background-image: url('./image/AI Bhagawat.png');
+    background-size: cover;
+}
+#box3{
+    background-image: url('./image/pyramid.png');
+    background-size: cover;
+}
+#box4{
+    background-image: url('./image/kalahari.png');
+    background-size: cover;
+}
+@media (max-width:470px){
+.box{
+    width: 70%;
+    position: relative;
+    bottom: -15rem;
+    left: 16rem;
+    background-repeat: round;
+}
+li{
+    padding: 1rem 1rem;
+}
+}
